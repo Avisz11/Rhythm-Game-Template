@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://dqoridv00squf"
-path="res://.godot/imported/Unitblock-JpJma.ttf-676d7627731f17015a44007c7cfa903b.fontdata"
+path="res://.godot/imported/Unitblock-JpJma.ttf-0f0fef21076fb1802e25743692e44e74.fontdata"
 
 [deps]
 
-source_file="res://Rhythm-Game-Template/Unitblock-JpJma.ttf"
-dest_files=["res://.godot/imported/Unitblock-JpJma.ttf-676d7627731f17015a44007c7cfa903b.fontdata"]
+source_file="res://game/Unitblock-JpJma.ttf"
+dest_files=["res://.godot/imported/Unitblock-JpJma.ttf-0f0fef21076fb1802e25743692e44e74.fontdata"]
 
 [params]
 

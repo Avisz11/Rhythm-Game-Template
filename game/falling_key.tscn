@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://d0pw13elp5jls"]
 
 [ext_resource type="Texture2D" uid="uid://bvxhe4th0dl21" path="res://icon.svg" id="1_i3t04"]
-[ext_resource type="Script" uid="uid://dan6injq2pa5n" path="res://Rhythm-Game-Template/falling_key.gd" id="1_pwveq"]
+[ext_resource type="Script" uid="uid://dan6injq2pa5n" path="res://game/falling_key.gd" id="1_pwveq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i3t04"]
 size = Vector2(128, 128)

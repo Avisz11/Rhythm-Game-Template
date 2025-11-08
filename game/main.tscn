@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bpp2wwk1ku254"]
 
-[ext_resource type="Script" uid="uid://b0fgubk2b72c4" path="res://Rhythm-Game-Template/falling_key_spawner.gd" id="1_j1kbl"]
+[ext_resource type="Script" uid="uid://b0fgubk2b72c4" path="res://game/falling_key_spawner.gd" id="1_j1kbl"]
 [ext_resource type="Texture2D" uid="uid://bvxhe4th0dl21" path="res://icon.svg" id="2_vmmtu"]
 
 [node name="Main" type="Node2D"]

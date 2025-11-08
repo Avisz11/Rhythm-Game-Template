@@ -1,16 +1,16 @@
 extends Node2D
 
-var spawn_info = [0.2, 0.5, 0.7, 0.9, 0.12]
+var spawn_info = [0.2, 0.5, 0.7, 0.9, 1.2] #Time when the keys spawn
 var spawn_index = 0
-var spawn_positions = [300,500, 700, 900]
+var spawn_positions = [300,500] #ADJUST FOR THE AMOUNT OF KEYS
 var notes = []
 var current_time = 0.0
 var y_threshold = 600
 var good_threshold = 100
 var perfect_threshold = 50
 var combo = 0
-const FALLING_KEY = preload("res://Rhythm-Game-Template/falling_key.tscn")
-const LABEL_POP_UP = preload("res://Rhythm-Game-Template/label_pop_up.tscn")
+const FALLING_KEY = preload("res://game/falling_key.tscn")
+const LABEL_POP_UP = preload("res://game/label_pop_up.tscn")
 @export var perfect_color : Color
 @export var good_color : Color
 @export var miss_color : Color
