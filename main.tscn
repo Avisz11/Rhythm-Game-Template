@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpp2wwk1ku254"]
+
+[ext_resource type="Script" uid="uid://b0fgubk2b72c4" path="res://Rhythm-Game-Template/falling_key_spawner.gd" id="1_j1kbl"]
+[ext_resource type="Texture2D" uid="uid://bvxhe4th0dl21" path="res://icon.svg" id="2_vmmtu"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_j1kbl")
+perfect_color = Color(0.452995, 0.627446, 1, 1)
+good_color = Color(0.630393, 1, 0.600702, 1)
+miss_color = Color(1, 0.585611, 0.524716, 1)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(500, 600)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2_vmmtu")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(700, 600)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2_vmmtu")
+
+[node name="LabelPos" type="Marker2D" parent="."]
+position = Vector2(195, 352)
