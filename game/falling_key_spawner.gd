@@ -2,7 +2,7 @@ extends Node2D
 
 var spawn_info = [0.2, 0.5, 0.7, 0.9, 1.2] #Time when the keys spawn
 var spawn_index = 0
-var spawn_positions = [300,500] #ADJUST FOR THE AMOUNT OF KEYS
+var spawn_positions = [500,700] #ADJUST FOR THE AMOUNT OF KEYS
 var notes = []
 var current_time = 0.0
 var y_threshold = 600
