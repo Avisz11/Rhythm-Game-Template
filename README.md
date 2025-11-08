@@ -1,5 +1,5 @@
 # Rhythm-Game-Template
-A rhythm game template for godot similar to games such as osu mania and firday night funkin.
+A rhythm game template for godot similar to games such as osu mania and friday night funkin.
 
 
 <h2>How it works</h2>
